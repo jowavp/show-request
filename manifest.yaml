@@ -1,0 +1,6 @@
+---
+applications:
+- name: dummydestination
+  random-route: true
+  path: app
+  memory: 128M
