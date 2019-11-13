@@ -24,7 +24,7 @@ const handleRequest = (req, res) => {
 
 app.all('*', handleRequest);
 
-const port = process.env.PORT || 3000;;
+const port = process.env.PORT || 3002;
 app.listen(port, function () {
   console.log('myapp listening on port ' + port);
 });
